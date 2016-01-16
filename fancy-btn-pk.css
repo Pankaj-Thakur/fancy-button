@@ -1,0 +1,17 @@
+.cs-btn[pk] { -webkit-appearance: none; -moz-appearance: none; appearance: none; outline: none; position:relative; }
+
+.cs-btn[pk] .lines { -webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box; position: absolute; -webkit-transition: all ease 800ms; -moz-transition: all ease 800ms; -o-transition: all ease 800ms; transition: all ease 800ms; }
+
+.cs-btn[pk] .lines.top { top: -2px; left: -2px; height: 2px; width: 0; }
+
+.cs-btn[pk] .lines.right { top: -2px; right: -2px; width: 2px; height: 0; }
+
+.cs-btn[pk] .lines.bottom { bottom: -2px; right: -2px; width: 0; height: 2px; }
+
+.cs-btn[pk] .lines.left { bottom: -2px; left: -2px; width: 2px; height: 0; }
+
+.cs-btn[pk]:hover .lines { background: #e50489; }
+
+.cs-btn[pk]:hover .lines.top, .cs-btn[pk]:hover .lines.bottom { padding-right: 2px; width: 100% !important; }
+
+.cs-btn[pk]:hover .lines.left, .cs-btn[pk]:hover .lines.right { height: 100% !important; padding-bottom: 2px; }
